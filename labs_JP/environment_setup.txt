@@ -1,0 +1,11 @@
+conda install jupyter notebook
+conda install -c pytorch ignite
+conda install -c conda-forge sacred
+conda install -c conda-forge matplotlib
+conda install -c conda-forge tqdm
+
+
+sacred update:
+go to anaconda3/envs/mainz_testing/lib/python3.10/site-packages/sacred/utils.py:345
+
+collections. --> collections.abc.
